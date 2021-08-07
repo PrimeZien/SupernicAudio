@@ -1,0 +1,122 @@
+
+body {
+    background-color: rgba(192, 192, 192, 0.24);
+}
+#b-ground{
+    padding-top: 120px;
+    background-size: contain !important;
+    width: 100%;
+    height: 50%;
+    z-index: -1;
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+.product-list{
+    text-align: center;
+}
+.product-list table{
+    margin-left: auto;
+    margin-right: auto;
+}
+.product-list ul li {
+    font-size: 20px;
+    height: 50px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    margin-left: 50px;
+    padding: 10px;
+    padding-bottom: 60px;
+    background-color: silver;
+    border-radius: 20px;
+    font-size: 40px;
+    display: inline-block;
+
+}
+
+
+.product-list li a:hover{
+    background: none;
+    border: none;
+}
+.item-name{
+    text-align: center;
+}
+.main-item{
+    padding-left: 10px;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+
+.single-card {
+    display: inline-grid;
+    width: 22%;
+    margin: 1%;
+    background-color: white;
+    box-shadow: silver 0 0 3px;
+
+}
+.single-card-text p{
+    font-size: 25px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.single-card:hover {
+    box-shadow: silver 0 0 20px;
+    color: mediumvioletred;
+}
+
+.single-card-img {
+    padding: 5%;
+    width: 100%;
+}
+
+.single-card-img img {
+    width: 90%;
+}
+
+.single-card-text {
+    font-size: 20px;
+    text-align: center;
+}
+.item-link:hover{
+    background:none;
+    border: none;
+    text-decoration: none;
+}
+
+
+
+@media all and (max-width: 1024px) and (min-width: 700px) {
+    .single-card {
+        width: 45%;
+    }
+}
+
+@media all and (max-width: 700px) and (min-width: 0) {
+    .single-card {
+        width: 98%;
+    }
+}
+@media(max-width:700px) {
+    .product-list table tr td{
+        display: block;
+        align-items: center;
+    }
+}
+@media(max-width:660px) {
+    .single-card{
+        margin-right: 3px;
+    }
+    .product-list ul li{
+        width:60%;
+    }
+}
+@media(max-width:390px){
+    .product-list ul li{
+        width:80%;
+        margin-left: 20px;
+    }
+}

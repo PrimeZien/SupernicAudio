@@ -1,0 +1,157 @@
+body {
+    background-color: rgba(192, 192, 192, 0.24);
+}
+.main-item{
+    background: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    margin-top: 150px;
+    margin-bottom: 40px;
+}
+#item-name1{
+    text-align: center;
+    display: none;
+}
+.item-img{
+    width:500px;
+    border: 1px solid black;
+    margin-top: 40px;
+}
+.main-item table tr td {
+    padding-left: 50px;
+    background: white;
+}
+#tab-td-img{
+    padding-left: 110px;
+}
+
+#item-name{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+#item-intr{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.para-intr{
+    font-size: 20px;
+    width: 70%;
+    font-family: 'Rokkitt', serif;
+}
+.tab{
+    align-items: center;
+}
+.consulation-div{
+    margin-top: 40px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+
+}
+.consulation-div a{
+    display: block;
+    text-align: center;
+    margin-top: 8px;
+    font-size: 19px;
+    font-family: 'Rokkitt', serif;
+    font-weight: bold;
+    color: black;
+}
+.consulation-div:hover{
+    background: #f60000;
+
+}
+.consulation-div a:hover{
+    background: none;
+    border: none;
+    color: white;
+}
+
+.price-div{
+    margin-top: 40px;
+}
+.item-qty{
+
+    margin-top: 25px;
+
+}
+#price{
+    font-family: 'Noto Sans HK', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+#gross{
+    margin-left: 25px;
+    font-family: 'Noto Sans HK', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+#buy-btn{
+    margin-top: 25px;
+    background-color: #fd4747;
+    color: white;
+    font-size: 15px;
+    width: 150px;
+    height: 40px;
+    border-style: none;
+    border-radius: 3px;
+    border-color:crimson;
+}
+#qty-num{
+    width: 10%;
+    height: 25px;
+    text-align: center;
+}
+.main-item2{
+    display: none;
+}
+#buy-btn:active{
+
+}
+
+
+@media(max-width:1250px){
+    .main-item table tr td{
+    display: block;
+}
+    #item-name1{
+        display: grid;
+    }
+    #item-name{
+        display: none;
+    }
+    .tab{
+        align-items: center;
+    }
+    .item-img{
+        align-items: center;
+        padding-right: 50px;
+    }
+
+}
+
+@media(max-width:700px){
+    .item-img{
+        width:400px;
+    }
+}
+
+@media(max-width:620px){
+    .item-img{
+        width:250px;
+    }
+    .main-item{
+        width:fit-content;
+    }
+    #tab-td-img{
+        padding-left:50px;
+    }
+}

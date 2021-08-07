@@ -1,0 +1,127 @@
+
+body {
+    background-color: rgba(192, 192, 192, 0.24);
+}
+
+#b-ground{
+    padding-top: 60px;
+    background-size: contain !important;
+    width: 100%;
+    margin: 0;
+    padding-right: 0;
+    padding-left: 0;
+    background-size: contain !important;
+}
+.product-list{
+	text-align: center;
+    background-color: #385dbc;
+}
+.product-list table{
+	margin-left: auto;
+	margin-right: auto;
+}
+.btn table tr td a {
+    height: 50px;
+    margin-top: 40px;
+	padding-bottom: 60px;
+    color: white;
+	font-size: 40px;
+    display: inline-block;
+    text-decoration: none;
+}
+.btn:active{
+    border: none;
+}
+.li-btn{
+    display: inline-block;
+}
+.prev{
+    position: absolute;
+}
+.product-list  a:hover{
+	background: none;
+	border: none;
+}
+.item-name{
+    text-align: center;
+}
+.main-item{
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+
+.single-card {
+    display: inline-grid;
+    width: 22%;
+    margin: 1%;
+    background-color: white;
+
+}
+.single-card-text p{
+    font-size: 25px;
+    font-family: 'Patua One', cursive;
+
+}
+
+.single-card:hover {
+    box-shadow: silver 0 0 20px;
+    color: mediumvioletred;
+}
+
+.single-card-img {
+    padding: 5%;
+    width: 100%;
+}
+
+.single-card-img img {
+    width: 90%;
+}
+
+.single-card-text {
+    font-size: 20px;
+    text-align: center;
+}
+.item-link:hover{
+    background:none;
+    border: none;
+}
+
+@media all and (max-width: 1024px) and (min-width: 700px) {
+    .single-card {
+        width: 45%;
+    }
+}
+
+@media (max-width: 900px) {
+    #b-ground{
+        padding-top: 90px;
+    }
+
+}
+@media (max-width: 450px){
+    #b-ground{
+        padding-top: 120px;
+    }
+}
+@media(max-width:700px) {
+    .product-list table tr td{
+        display: block;
+        align-items: center;
+    }
+    .single-card {
+        width: 98%;
+    }
+}
+@media(max-width:660px) {
+    .product-list ul li{
+        width:60%;
+    }
+}
+@media(max-width:390px){
+    .product-list ul li{
+        width:80%;
+        margin-left: 20px;
+    }
+}
