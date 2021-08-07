@@ -1,0 +1,39 @@
+
+.background{
+
+}
+.div1{
+    background-image: url("../img/background/dj1.jpg");
+    height: 664px;
+    width: 100%;
+    padding-bottom: 100px;
+}
+.main-para{
+    padding-top: 300px;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.para1{
+    color:white;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Arvo', serif;
+    text-align: center;
+}
+.para2{
+    color:white;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+
+}
+@media (max-width: 1000px) {
+    .main-para{
+        padding-top: 200px;
+    }
+
+}
+
+
