@@ -1,0 +1,139 @@
+nav{
+  z-index: 3;
+}
+body{
+  color:#212529;
+  text-align: left;
+  background-color: #ffff;
+}
+
+.main-div{
+  background-image: url("../img/background/New folder/con-bg.jpg");
+  width: 100%;
+  z-index: 0;
+}
+.info{
+  padding-top: 200px;
+  display: inline-grid;
+  width: 49%;
+  padding-bottom: 150px;
+}
+
+.text-con span{
+  font-size: 25px;
+  text-transform: uppercase;
+  opacity: 50%;
+  font-family: 'Mukta', sans-serif;
+}
+
+.col-lg-5{
+  margin: auto;
+}
+.mb-4{
+  color: white;
+  font-size: 35px;
+  padding-bottom:20px;
+}
+.icon span{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  z-index: 1;
+
+}
+.con-form{
+  padding-top: 100px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding-right:60px;
+  padding-left: 60px;
+  margin: auto;
+}
+
+.text-con{
+  padding-bottom: 50px;
+  padding-left: 50px;
+  position: relative;
+}
+
+.text-con p{
+  font-family: 'Mukta', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+}
+.col-md-12{
+  padding-bottom:50px ;
+}
+.btn-submit{
+  height: 40px;
+  width: 120px;
+  background-color: #1088fe;
+  border-color: #1088fe;
+  font-family: 'Bitter', serif;
+  color: white;
+  border-style: none;
+  border-radius: 4px;
+}
+.form-control{
+  padding-left: 30px;
+}
+.form-log{
+  font-size: 20px;
+  padding-left: 6px;
+  width: 300px;
+  height: 40px;
+  border-color: rgba(0, 0, 0, 0.1);
+  border-width: thin;
+  font-family: 'Open Sans', sans-serif;
+}
+#message{
+  resize: none;
+  height:100px ;
+  padding-top: 10px;
+}
+.map-para{
+  width: 10%;
+}
+.form-text {
+  color: red;
+  display: none;
+}
+
+@media(max-width: 1000px){
+  .info{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .col-lg-5{
+    margin: auto;
+  }
+}
+@media(max-width: 530px) {
+  .form-log {
+    width: 180px;
+    height: 40px;
+  }
+  .mb-4{
+    padding-left: 20px;
+    font-size: 25px;
+  }
+  .icon span{
+    font-size:20px ;
+    padding-left: 20px;
+  }
+  .text-con p{
+    font-size: 15px;
+  }
+}
+@media(max-width: 430px){
+
+}
+@media(max-width: 400px){
+  .con-form{
+    padding-left: 30px;
+    padding-right:30px ;
+  }
+}
